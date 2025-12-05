@@ -1,4 +1,4 @@
-🚀 Reto 5: Automatización CLOUD – Proyecto Playwright + IA
+📌 Reto 5: Automatización CLOUD – Proyecto Playwright + IA
 
 Este proyecto corresponde al Reto Práctico 5, donde se desarrolla una solución de automatización de pruebas web usando:
 
@@ -17,28 +17,27 @@ Pruebas tradicionales + Pruebas Estables (Respaldo)
 El objetivo es demostrar automatización avanzada + integración de IA con estabilidad incluso cuando el sitio DemoQA presenta fallas.
 
 📂 Estructura del Proyecto
-
 reto-testing-demoqa/
 ├── tests/
 │   ├── alerts/
-│   │   ├── alerts.spec.js                 ❌ DemoQA inestable
-│   │   └── alerts-estable.spec.js         ✔ Respaldo
+│   │   ├── alerts.spec.js                  ❌ DemoQA inestable
+│   │   └── alerts-estable.spec.js          ✔ Respaldo
 │   ├── frames/
-│   │   ├── nested-frames.spec.js          ❌ DemoQA roto
-│   │   └── nested-frames-estable.spec.js  ✔ Respaldo
+│   │   ├── nested-frames.spec.js           ❌ DemoQA roto
+│   │   └── nested-frames-estable.spec.js   ✔ Respaldo
 │   ├── forms/
-│   │   ├── practice-form.spec.js          ❌ DemoQA falla
-│   │   ├── practice-form-fallback.spec.js ✔ Respaldo
-│   │   ├── practice-form-estable.spec.js  ✔ Respaldo principal
-│   │   └── textbox.spec.js                ✔ Funcional
+│   │   ├── practice-form.spec.js           ❌ DemoQA falla
+│   │   ├── practice-form-fallback.spec.js  ✔ Respaldo
+│   │   ├── practice-form-estable.spec.js   ✔ Respaldo principal
+│   │   └── textbox.spec.js                 ✔ Funcional
 │   ├── elements/
 │   │   ├── buttons.spec.js
 │   │   ├── checkbox.spec.js
 │   │   ├── links.spec.js
 │   │   ├── radiobutton.spec.js
 │   │   └── webtables.spec.js
-│   └── widgets/
-│       └── example.spec.js
+│   ├── widgets/
+│   │   └── example.spec.js
 ├── helpers/
 │   ├── autoRepair.js
 │   ├── blockAds.js
@@ -80,62 +79,61 @@ reto-testing-demoqa/
 
 🛟 Respaldo Oficial – Practice Form Estable
 
-DemoQA presenta fallas frecuentes:
-
-Modal no abre
-
-Timeouts constantes
-
-Falla en headless
-
-Firefox inestable
-
-Anuncios tapan elementos
-
-Inputs invisibles
-
-Para evitar bloquear el reto, se creó un test 100% estable:
+Debido a la inestabilidad de DemoQA (modal que no abre, timeouts, Firefox falla, elementos invisibles), se creó un test 100% confiable ubicado en:
 
 tests/forms/respaldo/practice-form-estable.spec.js
 
 
-Este respaldo asegura que el flujo funcione incluso cuando DemoQA falla.
+Este caso permite continuar incluso cuando DemoQA está caído.
 
 🎯 Objetivo del Test Estable
 
-✔ Continuar el reto aunque DemoQA falle
+✔ Garantizar que el reto avance aunque DemoQA falle
 
-✔ Ejecución estable en todos los navegadores
+✔ Ejecución estable multi-navegador
 
-✔ Generar capturas, videos y trazas
+✔ Capturas + videos + reportes
 
-✔ Garantizar evaluación sin errores
+✔ Flujo funcional sin interrupciones
 
 🔗 Página alternativa estable
 
-Formulario seguro utilizado:
+Formulario utilizado:
 
 👉 https://www.w3schools.com/howto/howto_css_checkout_form.asp
+
+Totalmente funcional y sin fallas.
 
 ▶️ Ejecutar el test estable
 npx playwright test tests/forms/respaldo/practice-form-estable.spec.js
 
 📊 Resultados Reales
-Navegador	Estado	Observación
-Chromium	✔ OK	100% estable
-Webkit	✔ OK	Sin errores
-Firefox	⚠ Flaky	Dependiente del tiempo de carga
+Navegador	Estado	Comentario
+Chromium	✔	100% estable
+Webkit	✔	Sin errores
+Firefox	⚠	Dependiente del tiempo de carga
 📁 Evidencias Generadas
 
-Ejemplos:
+Ejemplos reales:
 
 screenshots/practice-form-estable-1764790701663.png
 screenshots/practice-form-estable-1764790708267.png
 screenshots/practice-form-estable-1764790728878.png
 screenshots/practice-form-estable-1764790750616.png
 
-⚙️ Configuración Final de Playwright
+🟩 Conclusión del Respaldo
 
+Si DemoQA funciona → se usan pruebas originales
+
+Si DemoQA falla → se usan pruebas estables
+
+No se bloquea el avance del reto
+
+El instructor puede validar sin errores
+
+Enfoque profesional frente a entornos inestables
+
+⚙️ Configuración Final de Playwright
 // @ts-check
 const { defineConfig, devices } = require('@playwright/test');
 
@@ -143,10 +141,12 @@ module.exports = defineConfig({
   testDir: './tests',
   timeout: 60000,
   retries: 1,
+
   reporter: [
     ['list'],
     ['html', { outputFolder: 'reportes/html-report', open: 'never' }]
   ],
+
   use: {
     baseURL: 'https://demoqa.com',
     headless: true,
@@ -158,56 +158,65 @@ module.exports = defineConfig({
       args: ['--disable-blink-features=AutomationControlled']
     }
   },
+
   projects: [
     { name: 'Chromium', use: devices['Desktop Chrome'] },
     { name: 'Firefox', use: devices['Desktop Firefox'] },
     { name: 'Webkit', use: devices['Desktop Safari'] }
   ]
 });
+
 🤖 Integración de IA (Ollama + MCP + Copilot Agent)
 
-El proyecto integra IA para:
+Incluye:
 
-Generar pruebas
+Generación automática de tests
 
-Reparar código fallido
+Reparación de código fallido
 
-Analizar trazas
+Análisis de trazas Playwright
 
-Crear fallback automático si DemoQA falla
+Creación de fallback cuando DemoQA rompe tests
 
-Explicar errores
+Explicación automática de errores
 
-Optimizar selectores
+Optimización de selectores
 
-Documentar automáticamente
+Documentación inteligente
 
 🧭 Comandos de Ejecución
-Ejecutar toda la suite
+
+Ejecutar toda la suite:
+
 npx playwright test
 
-Ejecutar con interfaz gráfica
+
+Ejecutar con navegador visible:
+
 npx playwright test --headed
 
-Ejecutar un archivo específico
+
+Ejecutar un test específico:
+
 npx playwright test tests/forms/respaldo/practice-form-estable.spec.js
 
-Abrir reporte HTML
+
+Abrir reporte HTML:
+
 npx playwright show-report reportes/html-report
 
 🟦 Conclusión General
 
 Este proyecto demuestra:
 
-✔ Automatización avanzada con Playwright
-✔ Integración profesional con IA
-✔ Resiliencia ante sitios inestables
-✔ Evidencias completas (capturas, videos, trazas)
+✔ Automatización avanzada
+✔ Integración con IA
+✔ Pruebas resilientes ante entornos inestables
+✔ Evidencias completas
 ✔ Fallback inteligente
-✔ Arquitectura limpia y modular
-✔ Documentación profesional lista para evaluación
+✔ Arquitectura limpia
+✔ Documentación profesional
 
 ✨ Autor
 
-Liz Vidal
-Reto Práctico 5 – Automatización Cloud
+Liz Vidal — Reto Práctico 5 – Automatización Cloud
