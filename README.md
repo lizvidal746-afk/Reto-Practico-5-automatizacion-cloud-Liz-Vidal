@@ -17,7 +17,7 @@ Pruebas tradicionales + Pruebas Estables (Respaldo)
 El objetivo es demostrar automatización avanzada + integración de IA con estabilidad incluso cuando el sitio DemoQA presenta fallas.
 
 📂 Estructura del Proyecto
-
+```
 reto-testing-demoqa/
 ├── tests/
 │   ├── alerts/
@@ -53,7 +53,7 @@ reto-testing-demoqa/
 ├── package.json
 ├── playwright.config.js
 └── README.md
-
+```
 
 📌 Estado del Proyecto
 
@@ -136,7 +136,7 @@ El instructor puede validar sin errores
 Enfoque profesional frente a entornos inestables
 
 ⚙️ Configuración Final de Playwright
-
+```
 // @ts-check
 const { defineConfig, devices } = require('@playwright/test');
 
@@ -168,7 +168,7 @@ module.exports = defineConfig({
     { name: 'Webkit', use: devices['Desktop Safari'] }
   ]
 });
-
+```
 
 🤖 Integración de IA (Ollama + MCP + Copilot Agent)
 
