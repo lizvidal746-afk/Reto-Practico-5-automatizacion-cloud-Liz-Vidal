@@ -1,0 +1,6 @@
+node_modules/
+reportes/
+screenshots/
+*.log
+.env
+ms-playwright/

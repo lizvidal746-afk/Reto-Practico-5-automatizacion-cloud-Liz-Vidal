@@ -1,0 +1,120 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - text: Elements
+        - img [ref=e22]
+      - generic [ref=e26]:
+        - generic [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - img [ref=e31]
+            - text: Forms
+          - img [ref=e37]
+        - list [ref=e42]:
+          - listitem [ref=e43] [cursor=pointer]:
+            - img [ref=e44]
+            - generic [ref=e46]: Practice Form
+      - generic [ref=e49] [cursor=pointer]:
+        - generic [ref=e50]:
+          - img [ref=e52]
+          - text: Alerts, Frame & Windows
+        - img [ref=e57]
+      - generic [ref=e63] [cursor=pointer]:
+        - generic [ref=e64]:
+          - img [ref=e66]
+          - text: Widgets
+        - img [ref=e71]
+      - generic [ref=e77] [cursor=pointer]:
+        - generic [ref=e78]:
+          - img [ref=e80]
+          - text: Interactions
+        - img [ref=e85]
+      - generic [ref=e91] [cursor=pointer]:
+        - generic [ref=e92]:
+          - img [ref=e94]
+          - text: Book Store Application
+        - img [ref=e99]
+    - generic [ref=e104]:
+      - heading "Practice Form" [level=1] [ref=e105]
+      - heading "Student Registration Form" [level=5] [ref=e106]
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e110]: Name
+          - textbox "First Name" [ref=e112]: Auto
+          - textbox "Last Name" [ref=e115]: Repair
+        - generic [ref=e116]:
+          - generic [ref=e118]: Email
+          - textbox "name@example.com" [ref=e120]: auto@repair.com
+        - generic [ref=e121]:
+          - generic [ref=e122]: Gender
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - radio "Male" [checked] [ref=e125]
+              - generic [ref=e126]: Male
+            - generic [ref=e127]:
+              - radio "Female" [ref=e128]
+              - generic [ref=e129]: Female
+            - generic [ref=e130]:
+              - radio "Other" [ref=e131]
+              - generic [ref=e132]: Other
+        - generic [ref=e133]:
+          - generic [ref=e135]: Mobile(10 Digits)
+          - textbox "Mobile Number" [active] [ref=e137]: "9999999999"
+        - generic [ref=e138]:
+          - generic [ref=e140]: Date of Birth
+          - textbox [ref=e144]: 05 Dec 2025
+        - generic [ref=e145]:
+          - generic [ref=e147]: Subjects
+          - textbox [ref=e154]
+        - generic [ref=e157]:
+          - generic [ref=e159]: Hobbies
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - checkbox "Sports" [ref=e162]
+              - generic [ref=e163]: Sports
+            - generic [ref=e164]:
+              - checkbox "Reading" [ref=e165]
+              - generic [ref=e166]: Reading
+            - generic [ref=e167]:
+              - checkbox "Music" [ref=e168]
+              - generic [ref=e169]: Music
+        - generic [ref=e170]:
+          - generic [ref=e172]: Picture
+          - generic [ref=e174]:
+            - generic [ref=e175]: Select picture
+            - button "Select picture" [ref=e176]
+        - generic [ref=e177]:
+          - generic [ref=e179]: Current Address
+          - textbox "Current Address" [ref=e181]
+        - generic [ref=e182]:
+          - generic [ref=e184]: State and City
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - generic [ref=e189]: Select State
+              - textbox [ref=e192]
+            - img [ref=e196]
+          - generic [ref=e198]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Select City
+                  - generic:
+                    - generic:
+                      - textbox [disabled]
+                - generic:
+                  - generic:
+                    - img
+        - button "Submit" [ref=e201] [cursor=pointer]
+    - img "Build PlayWright tests with AI" [ref=e209] [cursor=pointer]
+  - contentinfo [ref=e210]:
+    - generic [ref=e211]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

@@ -1,0 +1,12 @@
+{
+  "github.copilot.chat.modelContext": {
+    "mcpServers": {
+      "playwright": {
+        "type": "node",
+        "command": "npx",
+        "args": ["playwright", "mcp"]
+      }
+    }
+  },
+  "github.copilot.chat.assistantMode": "agent"
+}

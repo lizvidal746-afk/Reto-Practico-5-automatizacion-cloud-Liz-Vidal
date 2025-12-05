@@ -1,0 +1,220 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]:
+            - img [ref=e17]
+            - text: Elements
+          - img [ref=e22]
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - img [ref=e29]
+            - generic [ref=e31]: Text Box
+          - listitem [ref=e32]:
+            - img [ref=e33]
+            - generic [ref=e35]: Check Box
+          - listitem [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Radio Button
+          - listitem [ref=e40]:
+            - img [ref=e41]
+            - generic [ref=e43]: Web Tables
+          - listitem [ref=e44]:
+            - img [ref=e45]
+            - generic [ref=e47]: Buttons
+          - listitem [ref=e48]:
+            - img [ref=e49]
+            - generic [ref=e51]: Links
+          - listitem [ref=e52]:
+            - img [ref=e53]
+            - generic [ref=e55]: Broken Links - Images
+          - listitem [ref=e56]:
+            - img [ref=e57]
+            - generic [ref=e59]: Upload and Download
+          - listitem [ref=e60]:
+            - img [ref=e61]
+            - generic [ref=e63]: Dynamic Properties
+      - generic [ref=e64]:
+        - generic [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]:
+            - img [ref=e69]
+            - text: Forms
+          - img [ref=e75]
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - img [ref=e82]
+            - generic [ref=e84]: Practice Form
+      - generic [ref=e85]:
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]:
+            - img [ref=e90]
+            - text: Alerts, Frame & Windows
+          - img [ref=e95]
+        - list [ref=e100]:
+          - listitem [ref=e101]:
+            - img [ref=e102]
+            - generic [ref=e104]: Browser Windows
+          - listitem [ref=e105]:
+            - img [ref=e106]
+            - generic [ref=e108]: Alerts
+          - listitem [ref=e109]:
+            - img [ref=e110]
+            - generic [ref=e112]: Frames
+          - listitem [ref=e113]:
+            - img [ref=e114]
+            - generic [ref=e116]: Nested Frames
+          - listitem [ref=e117]:
+            - img [ref=e118]
+            - generic [ref=e120]: Modal Dialogs
+      - generic [ref=e121]:
+        - generic [ref=e123] [cursor=pointer]:
+          - generic [ref=e124]:
+            - img [ref=e126]
+            - text: Widgets
+          - img [ref=e131]
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - img [ref=e138]
+            - generic [ref=e140]: Accordian
+          - listitem [ref=e141]:
+            - img [ref=e142]
+            - generic [ref=e144]: Auto Complete
+          - listitem [ref=e145]:
+            - img [ref=e146]
+            - generic [ref=e148]: Date Picker
+          - listitem [ref=e149]:
+            - img [ref=e150]
+            - generic [ref=e152]: Slider
+          - listitem [ref=e153]:
+            - img [ref=e154]
+            - generic [ref=e156]: Progress Bar
+          - listitem [ref=e157]:
+            - img [ref=e158]
+            - generic [ref=e160]: Tabs
+          - listitem [ref=e161]:
+            - img [ref=e162]
+            - generic [ref=e164]: Tool Tips
+          - listitem [ref=e165]:
+            - img [ref=e166]
+            - generic [ref=e168]: Menu
+          - listitem [ref=e169]:
+            - img [ref=e170]
+            - generic [ref=e172]: Select Menu
+      - generic [ref=e173]:
+        - generic [ref=e175] [cursor=pointer]:
+          - generic [ref=e176]:
+            - img [ref=e178]
+            - text: Interactions
+          - img [ref=e183]
+        - list [ref=e188]:
+          - listitem [ref=e189]:
+            - img [ref=e190]
+            - generic [ref=e192]: Sortable
+          - listitem [ref=e193]:
+            - img [ref=e194]
+            - generic [ref=e196]: Selectable
+          - listitem [ref=e197]:
+            - img [ref=e198]
+            - generic [ref=e200]: Resizable
+          - listitem [ref=e201]:
+            - img [ref=e202]
+            - generic [ref=e204]: Droppable
+          - listitem [ref=e205]:
+            - img [ref=e206]
+            - generic [ref=e208]: Dragabble
+      - generic [ref=e209]:
+        - generic [ref=e211] [cursor=pointer]:
+          - generic [ref=e212]:
+            - img [ref=e214]
+            - text: Book Store Application
+          - img [ref=e219]
+        - list [ref=e224]:
+          - listitem [ref=e225]:
+            - img [ref=e226]
+            - generic [ref=e228]: Login
+          - listitem [ref=e229]:
+            - img [ref=e230]
+            - generic [ref=e232]: Book Store
+          - listitem [ref=e233]:
+            - img [ref=e234]
+            - generic [ref=e236]: Profile
+          - listitem [ref=e237]:
+            - img [ref=e238]
+            - generic [ref=e240]: Book Store API
+    - generic [ref=e242]:
+      - heading "Practice Form" [level=1] [ref=e243]
+      - heading "Student Registration Form" [level=5] [ref=e244]
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: Name
+          - textbox "First Name" [ref=e249]: Liz
+          - textbox "Last Name" [ref=e251]: Vidal
+        - generic [ref=e252]:
+          - generic [ref=e253]: Email
+          - textbox "name@example.com" [ref=e255]: liz@test.com
+        - generic [ref=e256]:
+          - generic [ref=e257]: Gender
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - radio "Male" [ref=e260]
+              - text: Male
+            - generic [ref=e261]:
+              - radio "Female" [checked] [ref=e262]
+              - text: Female
+            - generic [ref=e263]:
+              - radio "Other" [ref=e264]
+              - text: Other
+        - generic [ref=e265]:
+          - generic [ref=e267]: Mobile(10 Digits)
+          - textbox "Mobile Number" [ref=e269]: "999888777"
+        - generic [ref=e270]:
+          - generic [ref=e271]: Date of Birth
+          - textbox [ref=e275]: 05 Dec 2025
+        - generic [ref=e276]:
+          - generic [ref=e277]: Subjects
+          - textbox [ref=e284]
+        - generic [ref=e287]:
+          - generic [ref=e288]: Hobbies
+          - generic [ref=e289]:
+            - generic [ref=e290]:
+              - checkbox "Sports" [checked] [ref=e291]
+              - text: Sports
+            - generic [ref=e292]:
+              - checkbox "Reading" [ref=e293]
+              - text: Reading
+            - generic [ref=e294]:
+              - checkbox "Music" [ref=e295]
+              - text: Music
+        - generic [ref=e296]:
+          - generic [ref=e297]: Picture
+          - generic [ref=e299]:
+            - text: Select picture
+            - button "Select picture" [ref=e300]
+        - generic [ref=e301]:
+          - generic [ref=e302]: Current Address
+          - textbox "Current Address" [ref=e304]: Lima - Perú
+        - generic [ref=e305]:
+          - generic [ref=e306]: State and City
+          - generic [ref=e309]:
+            - generic [ref=e310]:
+              - generic [ref=e311]: NCR
+              - textbox [ref=e314]
+            - img [ref=e318]
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - generic [ref=e324]: Delhi
+              - textbox [ref=e327]
+            - img [ref=e331]
+        - button "Submit" [active] [ref=e335]
+    - img "Build PlayWright tests with AI" [ref=e343] [cursor=pointer]
+  - contentinfo [ref=e344]:
+    - generic [ref=e345]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

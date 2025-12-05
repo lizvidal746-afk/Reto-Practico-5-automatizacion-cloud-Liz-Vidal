@@ -1,0 +1,139 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e10]
+    - generic [ref=e13]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]:
+              - img [ref=e22]
+              - text: Elements
+            - img [ref=e27]
+          - list [ref=e32]:
+            - listitem [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e36]: Text Box
+            - listitem [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - generic [ref=e40]: Check Box
+            - listitem [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Radio Button
+            - listitem [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e48]: Web Tables
+            - listitem [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+              - generic [ref=e52]: Buttons
+            - listitem [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e56]: Links
+            - listitem [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e60]: Broken Links - Images
+            - listitem [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+              - generic [ref=e64]: Upload and Download
+            - listitem [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e68]: Dynamic Properties
+        - generic [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - text: Forms
+          - img [ref=e80]
+        - generic [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - text: Alerts, Frame & Windows
+          - img [ref=e94]
+        - generic [ref=e100] [cursor=pointer]:
+          - generic [ref=e101]:
+            - img [ref=e103]
+            - text: Widgets
+          - img [ref=e108]
+        - generic [ref=e114] [cursor=pointer]:
+          - generic [ref=e115]:
+            - img [ref=e117]
+            - text: Interactions
+          - img [ref=e122]
+        - generic [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]:
+            - img [ref=e131]
+            - text: Book Store Application
+          - img [ref=e136]
+      - generic [ref=e140]:
+        - heading "Check Box" [level=1] [ref=e141]
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - button "Expand all" [active] [ref=e145] [cursor=pointer]:
+              - img [ref=e146]: 
+            - button "Collapse all" [ref=e148] [cursor=pointer]:
+              - img [ref=e149]: 
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - generic [ref=e153]:
+                - button "Toggle" [ref=e154] [cursor=pointer]:
+                  - img [ref=e155]: 
+                - generic [ref=e157] [cursor=pointer]:
+                  - img [ref=e159]: 
+                  - img [ref=e162]: 
+                  - text: Home
+      - generic [ref=e169]:
+        - img "Build PlayWright tests with AI" [ref=e171] [cursor=pointer]
+        - iframe [ref=e174]:
+          - generic [active] [ref=f6e1]:
+            - generic [ref=f6e4]:
+              - link [ref=f6e5] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cz8p7WTozafPqLNCIhuMPkfG9kAmm_K7VgwHksprRthXa2R4QASDG-9Z5YN3ctgWgAemS2bopyAEJ4AIAqAMByAMKqgSFAk_QyZ1MHo8e3-uNcvRGKNY1_uyqxiBaeBwVUlz8NVRivyNvI5cLutjnylAvT8pKqZMRZOiQS1tKOLkhgmIlvO-F3SHs_NISGsC-UkIRVaqDwKgXBrBaa0uvmLhHIzlG1-3wqvhXJ_Zx6riLS-9cj-J5NICubRKKpYT51rbQaxGvFanks84pMp7MhouRJj7wNwQ49YpIDCoQVgP6nS0mITX88ix1sxtoAz-WFrkLPTbw4_wrazOOabAc4mUJW64pKi8DFzwjFyJPBmvVA_AEhjeDtwomfeONhDXLFV6WpjEPo5Zn7VD1TtDJ3hEbuGG8Ho6kM2TBb8mlK26M58Jghhdng4yO7cAEypfIvr8F4AQBiAW8zI66VqAGLoAHnO611BuoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlio9KfonqeRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJk-d8fjOUUlSACgOYCwHICwGADAGqDQJQRcgNAeINEwjYnqjonqeRAxVQhGEGHZF4D5LqDRMIhvOo6J6nkQMVUIRhBh2ReA-S8A0CiA7___________8B2BMD0BUByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAA7PNAEgo2MTY4NTc2NTA1GAGyGAkSAv9aGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE&num=1&cid=CAQSoAEAwksa0W25WklZVXP0ltWTMZnPO0bEqd7oROTp7q-AwpKLKIlLYi7NniALkN5gJPrmUXqlTzNYQuOL4Da8X2FTqT_bHDeYXum-jITf8udTRbFUzjKb31bq6Rf-9Bp0iXKTuKOOAZgsp7EgfsG0y5Cmt0joP_McAlF1faD0xKtJu34tPBuVM3AUEOm4mgx94c_0kcx86tZrIcG8ES3nrOGiGAE&sig=AOD64_2arG7AMrzrIrqhGygOH1Gf6il85A&client=ca-pub-4573231550355221&rf=4&nb=9&adurl=https://www.furyenergydrink.com/es-pe/%3Futm_source%3DGoogle%26utm_medium%3DPaidSocial%26utm_campaign%3DPE_2025_Q4_Fury_PE%2520Functionality_Display_Awareness_NPD_Auction_%26utm_adgroup%3DQ4_18-44_Broad_5per7_GDN2025%26gad_source%3D5%26gad_campaignid%3D23207323196%26gclid%3DEAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE
+                - img [ref=f6e6]
+              - generic [ref=f6e8]:
+                - link "Fury Energy Drink" [ref=f6e13] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cz8p7WTozafPqLNCIhuMPkfG9kAmm_K7VgwHksprRthXa2R4QASDG-9Z5YN3ctgWgAemS2bopyAEJ4AIAqAMByAMKqgSFAk_QyZ1MHo8e3-uNcvRGKNY1_uyqxiBaeBwVUlz8NVRivyNvI5cLutjnylAvT8pKqZMRZOiQS1tKOLkhgmIlvO-F3SHs_NISGsC-UkIRVaqDwKgXBrBaa0uvmLhHIzlG1-3wqvhXJ_Zx6riLS-9cj-J5NICubRKKpYT51rbQaxGvFanks84pMp7MhouRJj7wNwQ49YpIDCoQVgP6nS0mITX88ix1sxtoAz-WFrkLPTbw4_wrazOOabAc4mUJW64pKi8DFzwjFyJPBmvVA_AEhjeDtwomfeONhDXLFV6WpjEPo5Zn7VD1TtDJ3hEbuGG8Ho6kM2TBb8mlK26M58Jghhdng4yO7cAEypfIvr8F4AQBiAW8zI66VqAGLoAHnO611BuoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlio9KfonqeRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJk-d8fjOUUlSACgOYCwHICwGADAGqDQJQRcgNAeINEwjYnqjonqeRAxVQhGEGHZF4D5LqDRMIhvOo6J6nkQMVUIRhBh2ReA-S8A0CiA7___________8B2BMD0BUByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAA7PNAEgo2MTY4NTc2NTA1GAGyGAkSAv9aGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE&num=1&cid=CAQSoAEAwksa0W25WklZVXP0ltWTMZnPO0bEqd7oROTp7q-AwpKLKIlLYi7NniALkN5gJPrmUXqlTzNYQuOL4Da8X2FTqT_bHDeYXum-jITf8udTRbFUzjKb31bq6Rf-9Bp0iXKTuKOOAZgsp7EgfsG0y5Cmt0joP_McAlF1faD0xKtJu34tPBuVM3AUEOm4mgx94c_0kcx86tZrIcG8ES3nrOGiGAE&sig=AOD64_2arG7AMrzrIrqhGygOH1Gf6il85A&client=ca-pub-4573231550355221&rf=4&nb=0&adurl=https://www.furyenergydrink.com/es-pe/%3Futm_source%3DGoogle%26utm_medium%3DPaidSocial%26utm_campaign%3DPE_2025_Q4_Fury_PE%2520Functionality_Display_Awareness_NPD_Auction_%26utm_adgroup%3DQ4_18-44_Broad_5per7_GDN2025%26gad_source%3D5%26gad_campaignid%3D23207323196%26gclid%3DEAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE
+                - generic [ref=f6e16]:
+                  - link "Fury Energy" [ref=f6e18] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cz8p7WTozafPqLNCIhuMPkfG9kAmm_K7VgwHksprRthXa2R4QASDG-9Z5YN3ctgWgAemS2bopyAEJ4AIAqAMByAMKqgSFAk_QyZ1MHo8e3-uNcvRGKNY1_uyqxiBaeBwVUlz8NVRivyNvI5cLutjnylAvT8pKqZMRZOiQS1tKOLkhgmIlvO-F3SHs_NISGsC-UkIRVaqDwKgXBrBaa0uvmLhHIzlG1-3wqvhXJ_Zx6riLS-9cj-J5NICubRKKpYT51rbQaxGvFanks84pMp7MhouRJj7wNwQ49YpIDCoQVgP6nS0mITX88ix1sxtoAz-WFrkLPTbw4_wrazOOabAc4mUJW64pKi8DFzwjFyJPBmvVA_AEhjeDtwomfeONhDXLFV6WpjEPo5Zn7VD1TtDJ3hEbuGG8Ho6kM2TBb8mlK26M58Jghhdng4yO7cAEypfIvr8F4AQBiAW8zI66VqAGLoAHnO611BuoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlio9KfonqeRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJk-d8fjOUUlSACgOYCwHICwGADAGqDQJQRcgNAeINEwjYnqjonqeRAxVQhGEGHZF4D5LqDRMIhvOo6J6nkQMVUIRhBh2ReA-S8A0CiA7___________8B2BMD0BUByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAA7PNAEgo2MTY4NTc2NTA1GAGyGAkSAv9aGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE&num=1&cid=CAQSoAEAwksa0W25WklZVXP0ltWTMZnPO0bEqd7oROTp7q-AwpKLKIlLYi7NniALkN5gJPrmUXqlTzNYQuOL4Da8X2FTqT_bHDeYXum-jITf8udTRbFUzjKb31bq6Rf-9Bp0iXKTuKOOAZgsp7EgfsG0y5Cmt0joP_McAlF1faD0xKtJu34tPBuVM3AUEOm4mgx94c_0kcx86tZrIcG8ES3nrOGiGAE&sig=AOD64_2arG7AMrzrIrqhGygOH1Gf6il85A&client=ca-pub-4573231550355221&rf=4&nb=1&adurl=https://www.furyenergydrink.com/es-pe/%3Futm_source%3DGoogle%26utm_medium%3DPaidSocial%26utm_campaign%3DPE_2025_Q4_Fury_PE%2520Functionality_Display_Awareness_NPD_Auction_%26utm_adgroup%3DQ4_18-44_Broad_5per7_GDN2025%26gad_source%3D5%26gad_campaignid%3D23207323196%26gclid%3DEAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE
+                  - link "Open" [ref=f6e20] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cz8p7WTozafPqLNCIhuMPkfG9kAmm_K7VgwHksprRthXa2R4QASDG-9Z5YN3ctgWgAemS2bopyAEJ4AIAqAMByAMKqgSFAk_QyZ1MHo8e3-uNcvRGKNY1_uyqxiBaeBwVUlz8NVRivyNvI5cLutjnylAvT8pKqZMRZOiQS1tKOLkhgmIlvO-F3SHs_NISGsC-UkIRVaqDwKgXBrBaa0uvmLhHIzlG1-3wqvhXJ_Zx6riLS-9cj-J5NICubRKKpYT51rbQaxGvFanks84pMp7MhouRJj7wNwQ49YpIDCoQVgP6nS0mITX88ix1sxtoAz-WFrkLPTbw4_wrazOOabAc4mUJW64pKi8DFzwjFyJPBmvVA_AEhjeDtwomfeONhDXLFV6WpjEPo5Zn7VD1TtDJ3hEbuGG8Ho6kM2TBb8mlK26M58Jghhdng4yO7cAEypfIvr8F4AQBiAW8zI66VqAGLoAHnO611BuoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlio9KfonqeRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJk-d8fjOUUlSACgOYCwHICwGADAGqDQJQRcgNAeINEwjYnqjonqeRAxVQhGEGHZF4D5LqDRMIhvOo6J6nkQMVUIRhBh2ReA-S8A0CiA7___________8B2BMD0BUByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAA7PNAEgo2MTY4NTc2NTA1GAGyGAkSAv9aGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE&num=1&cid=CAQSoAEAwksa0W25WklZVXP0ltWTMZnPO0bEqd7oROTp7q-AwpKLKIlLYi7NniALkN5gJPrmUXqlTzNYQuOL4Da8X2FTqT_bHDeYXum-jITf8udTRbFUzjKb31bq6Rf-9Bp0iXKTuKOOAZgsp7EgfsG0y5Cmt0joP_McAlF1faD0xKtJu34tPBuVM3AUEOm4mgx94c_0kcx86tZrIcG8ES3nrOGiGAE&sig=AOD64_2arG7AMrzrIrqhGygOH1Gf6il85A&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.furyenergydrink.com/es-pe/%3Futm_source%3DGoogle%26utm_medium%3DPaidSocial%26utm_campaign%3DPE_2025_Q4_Fury_PE%2520Functionality_Display_Awareness_NPD_Auction_%26utm_adgroup%3DQ4_18-44_Broad_5per7_GDN2025%26gad_source%3D5%26gad_campaignid%3D23207323196%26gclid%3DEAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE
+                  - link [ref=f6e21] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cz8p7WTozafPqLNCIhuMPkfG9kAmm_K7VgwHksprRthXa2R4QASDG-9Z5YN3ctgWgAemS2bopyAEJ4AIAqAMByAMKqgSFAk_QyZ1MHo8e3-uNcvRGKNY1_uyqxiBaeBwVUlz8NVRivyNvI5cLutjnylAvT8pKqZMRZOiQS1tKOLkhgmIlvO-F3SHs_NISGsC-UkIRVaqDwKgXBrBaa0uvmLhHIzlG1-3wqvhXJ_Zx6riLS-9cj-J5NICubRKKpYT51rbQaxGvFanks84pMp7MhouRJj7wNwQ49YpIDCoQVgP6nS0mITX88ix1sxtoAz-WFrkLPTbw4_wrazOOabAc4mUJW64pKi8DFzwjFyJPBmvVA_AEhjeDtwomfeONhDXLFV6WpjEPo5Zn7VD1TtDJ3hEbuGG8Ho6kM2TBb8mlK26M58Jghhdng4yO7cAEypfIvr8F4AQBiAW8zI66VqAGLoAHnO611BuoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOlio9KfonqeRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJk-d8fjOUUlSACgOYCwHICwGADAGqDQJQRcgNAeINEwjYnqjonqeRAxVQhGEGHZF4D5LqDRMIhvOo6J6nkQMVUIRhBh2ReA-S8A0CiA7___________8B2BMD0BUByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAA7PNAEgo2MTY4NTc2NTA1GAGyGAkSAv9aGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE&num=1&cid=CAQSoAEAwksa0W25WklZVXP0ltWTMZnPO0bEqd7oROTp7q-AwpKLKIlLYi7NniALkN5gJPrmUXqlTzNYQuOL4Da8X2FTqT_bHDeYXum-jITf8udTRbFUzjKb31bq6Rf-9Bp0iXKTuKOOAZgsp7EgfsG0y5Cmt0joP_McAlF1faD0xKtJu34tPBuVM3AUEOm4mgx94c_0kcx86tZrIcG8ES3nrOGiGAE&sig=AOD64_2arG7AMrzrIrqhGygOH1Gf6il85A&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.furyenergydrink.com/es-pe/%3Futm_source%3DGoogle%26utm_medium%3DPaidSocial%26utm_campaign%3DPE_2025_Q4_Fury_PE%2520Functionality_Display_Awareness_NPD_Auction_%26utm_adgroup%3DQ4_18-44_Broad_5per7_GDN2025%26gad_source%3D5%26gad_campaignid%3D23207323196%26gclid%3DEAIaIQobChMIs_vu6J6nkQMVUIRhBh2ReA-SEAEYASAAEgLblPD_BwE
+                    - img [ref=f6e22]
+            - generic [ref=f6e27]:
+              - link [ref=f6e29] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde934qLLrplAlC2AcQnbwBdJYxvXL_qvcMDKwzbIHCj4MUki4RwJFiKlx4-uhA68ewx2ALc3zTmwVujLXEQTIxHivPTWPZ-N0d6zf9MMzxJMN4l7J0HKcbAO4NIhan9pGHu0F4sQ9gxXvUiqaS_m1NuBilKHA5itCThpFWP7_ryXLgAvds_n6VZWLUPZMQbyZlXn9ZeNTuzJT7njvc1de2Mw2v84O-Aay_Uxdfi2ijqUyZ56GtNGh-r0KWvQ7FtoooORO-43leCda3Hlze6VDrjZoYfnT6OqVMuPosLFqKtXaVsx_cDkEavIAaLvsw-WV9cx2by-KG_GXsqlqnlBxcgBUPu7cURTMVLn8DGqCPaQnRQ3A0OnO5tO5WNbRb-svefB_inrb7WzMd_t6k97mJDv5neKG54GXVQ7DyJZ7X5T1PJgrz32RYu0z-knezKrDP4VGZl728H78uy0s4lXDLAYjiHG2PdxxCySWFTsrgX9K9-wo9kd-NiN6nfk6W5tXVEqpMy1Vv7FBZkAr3UhbT5KgDaZHC15BRrKt3m1lgsLnVF7AIFWws0OSlRbuZ_DybOY5CdMAnkUFUWUb8tPQDd8Z7O8oH-Ff4F-8T3TUhDfrr_I3lhkZiJlmKbEn8ooYu9jk8Nq8xUpZ32PySZBwqwfGlTnXxzYLo_25Zp07-dBL2PZfioUbFWNnl4gDiYwJG_6dLlOlolZg5cUUq1KT_iuT9jIwuD3zFfIihUZfgbcjVwQ-v2lxdLeF1PRl1L-mklgFzmhJvxQexEFB9VQR9g6hry3leiGHaZ7hAdF64fzAtt9mhNVnl4mbnHOi8T0_wPXQd5F3P0MCDYhdmcjyDiqDp62SUpvgnLLS5FHvNpLi9A11lQWz7HP3MnxfL2A_0goEETnKHqhmMs21STbrglCdGh_GInZSJXCR18n3A6maKoJHpQ9ZwRqmeg5m1sWQRfq0-K2bR0_5xoheiLcq8oKjqQimdWRjVC8cLRiB-HUzfoJgoyQHW5lwBanNmmoGrKP5sn2A_c5z2_AdN2YibresJI3AyF8ZCEhgfhLlQuw4MIE2pTkwvePrsnwOjRxQ1DTtW7017IfDVDkybWw1S6QKoKM0Baf4ILVyyDh5PnS155dF-ct_aJtcPVYvboCprl4HxUxRhrehfP3GIResHwCQrHtxW0JjueQedXuwxvTM3cOHLAMvqiBYRRukERKyr8Ln-jZpcFNxEuOsujKoHLxyIsyAi8iNMOIQlFTucpiEnHwRCohd04Cjb2rOKyd_8VTgr5HiB_ct73j4GWCQmtVAwtzwlZxqp7TVVGS321dp23JgAwOAPacN7lDFQpOJjb6Sq4y-S8NXmeaa3zOnUG5-jlacbMJB4R34YqxckRMkR8RKN6AublCNtd89pDioJrhgYzxdZPxsDK16UzswnBdCBYxmoSrepVJtNo-B2M9tBkGw_2SaVAM8ecfNZ1Ns6rFbOE8DHFlT32k59KVrnI9LqK7Gan0N76r_c00--tBlASwu79Sw1JwAvQsgoL2ovYC9xWQHb2XNj1Few3fHY58QHZhGGMTQlY55_uPkj0Cb32RQl-XXCL9Kba5QTg2SsvUahleTd5HCrqbdLaYAM_EPFAttYlxUOhtWI90EvMoAcb5dubF7b1gm3F25QULNNn3pruRQbtTlCOVK-buTzc2WzUw5rK0BdJYYLstYJwx7xI_NC6cSg_yBeUhvfaAoqB9Q0KHjKlpWdC37EC1xFJY2WjtoRn4BXgb2TuIQ-g1IlAMGIwiBcuoV0_kO4hkLiJAFHsu3VjCB8wbu88b1WVM0jROEfpnWJDQCPcN-ALEiRIzT5KcVsH6HvfFhCiuo0rUj1YZ4DP592zwaE3DL4OfOFFZ6hXdWz2iTYLQoOwcAtuIzpu2Syj575-XVWltFpzbDEQGj8eMCQEQUUqRENnH67l69cZicAAzi0HJL_w656u7KUM8xag7gWHXF9Imu56pq9LpmjxekRP1yrKdUB4hAkiJl5v4d2tIIcm3PYsfgAZWP0Bs-KpgcMJnbQtatHCGYR2i-LTZJWU-vgvazROqzGSVc-ku8a__oVziJNyWkdtv_R1Gxa4yZCKjhp1Oodqc1kAaF3VDcXWHtajw_xmyG4Qnr22oSrEzGiLgLlKxIlhUoabWBTNir7TUTGKxTi5bGqac-qV5FMjrRZ1AkrdQPaPDnqco02EXFFk1Z261knSiGa_koWAV4YVrGvZTQHq8RKb1o7kdIcBPc91PkqAHjbxFqMta9VjN3TrQsg2Ug3LWrsE9kS6X0HuDoKYbbiUdlAuOB2qLyfbzi3UOjanGvbauLZ7sOFMd6eB01mWA91D66M-5D0DvlT5slFnZeuY_8ItRTyNQsOQYrdiqU2O6c0SUo7xR24vaK7jAGa1OY&opi=122715837
+                - img [ref=f6e31]
+              - link [ref=f6e33] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde934qLLrplAlC2AcQnbwBdJYxvXL_qvcMDKwzbIHCj4MUki4RwJFiKlx4-uhA68ewx2ALc3zTmwVujLXEQTIxHivPTWPZ-N0d6zf9MMzxJMN4l7J0HKcbAO4NIhan9pGHu0F4sQ9gxXvUiqaS_m1NuBilKHA5itCThpFWP7_ryXLgAvds_n6VZWLUPZMQbyZlXn9ZeNTuzJT7njvc1de2Mw2v84O-Aay_Uxdfi2ijqUyZ56GtNGh-r0KWvQ7FtoooORO-43leCda3Hlze6VDrjZoYfnT6OqVMuPosLFqKtXaVsx_cDkEavIAaLvsw-WV9cx2by-KG_GXsqlqnlBxcgBUPu7cURTMVLn8DGqCPaQnRQ3A0OnO5tO5WNbRb-svefB_inrb7WzMd_t6k97mJDv5neKG54GXVQ7DyJZ7X5T1PJgrz32RYu0z-knezKrDP4VGZl728H78uy0s4lXDLAYjiHG2PdxxCySWFTsrgX9K9-wo9kd-NiN6nfk6W5tXVEqpMy1Vv7FBZkAr3UhbT5KgDaZHC15BRrKt3m1lgsLnVF7AIFWws0OSlRbuZ_DybOY5CdMAnkUFUWUb8tPQDd8Z7O8oH-Ff4F-8T3TUhDfrr_I3lhkZiJlmKbEn8ooYu9jk8Nq8xUpZ32PySZBwqwfGlTnXxzYLo_25Zp07-dBL2PZfioUbFWNnl4gDiYwJG_6dLlOlolZg5cUUq1KT_iuT9jIwuD3zFfIihUZfgbcjVwQ-v2lxdLeF1PRl1L-mklgFzmhJvxQexEFB9VQR9g6hry3leiGHaZ7hAdF64fzAtt9mhNVnl4mbnHOi8T0_wPXQd5F3P0MCDYhdmcjyDiqDp62SUpvgnLLS5FHvNpLi9A11lQWz7HP3MnxfL2A_0goEETnKHqhmMs21STbrglCdGh_GInZSJXCR18n3A6maKoJHpQ9ZwRqmeg5m1sWQRfq0-K2bR0_5xoheiLcq8oKjqQimdWRjVC8cLRiB-HUzfoJgoyQHW5lwBanNmmoGrKP5sn2A_c5z2_AdN2YibresJI3AyF8ZCEhgfhLlQuw4MIE2pTkwvePrsnwOjRxQ1DTtW7017IfDVDkybWw1S6QKoKM0Baf4ILVyyDh5PnS155dF-ct_aJtcPVYvboCprl4HxUxRhrehfP3GIResHwCQrHtxW0JjueQedXuwxvTM3cOHLAMvqiBYRRukERKyr8Ln-jZpcFNxEuOsujKoHLxyIsyAi8iNMOIQlFTucpiEnHwRCohd04Cjb2rOKyd_8VTgr5HiB_ct73j4GWCQmtVAwtzwlZxqp7TVVGS321dp23JgAwOAPacN7lDFQpOJjb6Sq4y-S8NXmeaa3zOnUG5-jlacbMJB4R34YqxckRMkR8RKN6AublCNtd89pDioJrhgYzxdZPxsDK16UzswnBdCBYxmoSrepVJtNo-B2M9tBkGw_2SaVAM8ecfNZ1Ns6rFbOE8DHFlT32k59KVrnI9LqK7Gan0N76r_c00--tBlASwu79Sw1JwAvQsgoL2ovYC9xWQHb2XNj1Few3fHY58QHZhGGMTQlY55_uPkj0Cb32RQl-XXCL9Kba5QTg2SsvUahleTd5HCrqbdLaYAM_EPFAttYlxUOhtWI90EvMoAcb5dubF7b1gm3F25QULNNn3pruRQbtTlCOVK-buTzc2WzUw5rK0BdJYYLstYJwx7xI_NC6cSg_yBeUhvfaAoqB9Q0KHjKlpWdC37EC1xFJY2WjtoRn4BXgb2TuIQ-g1IlAMGIwiBcuoV0_kO4hkLiJAFHsu3VjCB8wbu88b1WVM0jROEfpnWJDQCPcN-ALEiRIzT5KcVsH6HvfFhCiuo0rUj1YZ4DP592zwaE3DL4OfOFFZ6hXdWz2iTYLQoOwcAtuIzpu2Syj575-XVWltFpzbDEQGj8eMCQEQUUqRENnH67l69cZicAAzi0HJL_w656u7KUM8xag7gWHXF9Imu56pq9LpmjxekRP1yrKdUB4hAkiJl5v4d2tIIcm3PYsfgAZWP0Bs-KpgcMJnbQtatHCGYR2i-LTZJWU-vgvazROqzGSVc-ku8a__oVziJNyWkdtv_R1Gxa4yZCKjhp1Oodqc1kAaF3VDcXWHtajw_xmyG4Qnr22oSrEzGiLgLlKxIlhUoabWBTNir7TUTGKxTi5bGqac-qV5FMjrRZ1AkrdQPaPDnqco02EXFFk1Z261knSiGa_koWAV4YVrGvZTQHq8RKb1o7kdIcBPc91PkqAHjbxFqMta9VjN3TrQsg2Ug3LWrsE9kS6X0HuDoKYbbiUdlAuOB2qLyfbzi3UOjanGvbauLZ7sOFMd6eB01mWA91D66M-5D0DvlT5slFnZeuY_8ItRTyNQsOQYrdiqU2O6c0SUo7xR24vaK7jAGa1OY&opi=122715837
+                - img [ref=f6e35]
+            - img [ref=f6e38] [cursor=pointer]
+            - generic [ref=f6e49]:
+              - img [ref=f6e52]
+              - generic [ref=f6e55]:
+                - text: Ads by
+                - img [ref=f6e56]
+              - generic [ref=f6e58]:
+                - generic [ref=f6e61] [cursor=pointer]: Send feedback
+                - link [ref=f6e63] [cursor=pointer]:
+                  - /url: https://adssettings.google.com/whythisad?source=display&reasons=AQde934qLLrplAlC2AcQnbwBdJYxvXL_qvcMDKwzbIHCj4MUki4RwJFiKlx4-uhA68ewx2ALc3zTmwVujLXEQTIxHivPTWPZ-N0d6zf9MMzxJMN4l7J0HKcbAO4NIhan9pGHu0F4sQ9gxXvUiqaS_m1NuBilKHA5itCThpFWP7_ryXLgAvds_n6VZWLUPZMQbyZlXn9ZeNTuzJT7njvc1de2Mw2v84O-Aay_Uxdfi2ijqUyZ56GtNGh-r0KWvQ7FtoooORO-43leCda3Hlze6VDrjZoYfnT6OqVMuPosLFqKtXaVsx_cDkEavIAaLvsw-WV9cx2by-KG_GXsqlqnlBxcgBUPu7cURTMVLn8DGqCPaQnRQ3A0OnO5tO5WNbRb-svefB_inrb7WzMd_t6k97mJDv5neKG54GXVQ7DyJZ7X5T1PJgrz32RYu0z-knezKrDP4VGZl728H78uy0s4lXDLAYjiHG2PdxxCySWFTsrgX9K9-wo9kd-NiN6nfk6W5tXVEqpMy1Vv7FBZkAr3UhbT5KgDaZHC15BRrKt3m1lgsLnVF7AIFWws0OSlRbuZ_DybOY5CdMAnkUFUWUb8tPQDd8Z7O8oH-Ff4F-8T3TUhDfrr_I3lhkZiJlmKbEn8ooYu9jk8Nq8xUpZ32PySZBwqwfGlTnXxzYLo_25Zp07-dBL2PZfioUbFWNnl4gDiYwJG_6dLlOlolZg5cUUq1KT_iuT9jIwuD3zFfIihUZfgbcjVwQ-v2lxdLeF1PRl1L-mklgFzmhJvxQexEFB9VQR9g6hry3leiGHaZ7hAdF64fzAtt9mhNVnl4mbnHOi8T0_wPXQd5F3P0MCDYhdmcjyDiqDp62SUpvgnLLS5FHvNpLi9A11lQWz7HP3MnxfL2A_0goEETnKHqhmMs21STbrglCdGh_GInZSJXCR18n3A6maKoJHpQ9ZwRqmeg5m1sWQRfq0-K2bR0_5xoheiLcq8oKjqQimdWRjVC8cLRiB-HUzfoJgoyQHW5lwBanNmmoGrKP5sn2A_c5z2_AdN2YibresJI3AyF8ZCEhgfhLlQuw4MIE2pTkwvePrsnwOjRxQ1DTtW7017IfDVDkybWw1S6QKoKM0Baf4ILVyyDh5PnS155dF-ct_aJtcPVYvboCprl4HxUxRhrehfP3GIResHwCQrHtxW0JjueQedXuwxvTM3cOHLAMvqiBYRRukERKyr8Ln-jZpcFNxEuOsujKoHLxyIsyAi8iNMOIQlFTucpiEnHwRCohd04Cjb2rOKyd_8VTgr5HiB_ct73j4GWCQmtVAwtzwlZxqp7TVVGS321dp23JgAwOAPacN7lDFQpOJjb6Sq4y-S8NXmeaa3zOnUG5-jlacbMJB4R34YqxckRMkR8RKN6AublCNtd89pDioJrhgYzxdZPxsDK16UzswnBdCBYxmoSrepVJtNo-B2M9tBkGw_2SaVAM8ecfNZ1Ns6rFbOE8DHFlT32k59KVrnI9LqK7Gan0N76r_c00--tBlASwu79Sw1JwAvQsgoL2ovYC9xWQHb2XNj1Few3fHY58QHZhGGMTQlY55_uPkj0Cb32RQl-XXCL9Kba5QTg2SsvUahleTd5HCrqbdLaYAM_EPFAttYlxUOhtWI90EvMoAcb5dubF7b1gm3F25QULNNn3pruRQbtTlCOVK-buTzc2WzUw5rK0BdJYYLstYJwx7xI_NC6cSg_yBeUhvfaAoqB9Q0KHjKlpWdC37EC1xFJY2WjtoRn4BXgb2TuIQ-g1IlAMGIwiBcuoV0_kO4hkLiJAFHsu3VjCB8wbu88b1WVM0jROEfpnWJDQCPcN-ALEiRIzT5KcVsH6HvfFhCiuo0rUj1YZ4DP592zwaE3DL4OfOFFZ6hXdWz2iTYLQoOwcAtuIzpu2Syj575-XVWltFpzbDEQGj8eMCQEQUUqRENnH67l69cZicAAzi0HJL_w656u7KUM8xag7gWHXF9Imu56pq9LpmjxekRP1yrKdUB4hAkiJl5v4d2tIIcm3PYsfgAZWP0Bs-KpgcMJnbQtatHCGYR2i-LTZJWU-vgvazROqzGSVc-ku8a__oVziJNyWkdtv_R1Gxa4yZCKjhp1Oodqc1kAaF3VDcXWHtajw_xmyG4Qnr22oSrEzGiLgLlKxIlhUoabWBTNir7TUTGKxTi5bGqac-qV5FMjrRZ1AkrdQPaPDnqco02EXFFk1Z261knSiGa_koWAV4YVrGvZTQHq8RKb1o7kdIcBPc91PkqAHjbxFqMta9VjN3TrQsg2Ug3LWrsE9kS6X0HuDoKYbbiUdlAuOB2qLyfbzi3UOjanGvbauLZ7sOFMd6eB01mWA91D66M-5D0DvlT5slFnZeuY_8ItRTyNQsOQYrdiqU2O6c0SUo7xR24vaK7jAGa1OY&opi=122715837
+                  - generic [ref=f6e64]:
+                    - text: Why this ad?
+                    - img [ref=f6e65]
+            - generic [ref=f6e67]:
+              - generic [ref=f6e70] [cursor=pointer]: Ad covered content
+              - generic [ref=f6e73] [cursor=pointer]: Not interested in this ad
+              - generic [ref=f6e76] [cursor=pointer]: Seen this ad multiple times
+              - generic [ref=f6e79] [cursor=pointer]: Ad was inappropriate
+            - generic [ref=f6e85]: Thanks. Feedback improves Google ads
+            - generic [ref=f6e91]:
+              - text: Ad closed by
+              - img [ref=f6e92]
+    - contentinfo [ref=e175]:
+      - generic [ref=e176]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

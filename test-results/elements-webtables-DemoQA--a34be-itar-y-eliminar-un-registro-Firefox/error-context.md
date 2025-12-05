@@ -1,0 +1,228 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e10]
+    - generic [ref=e13]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]:
+              - img [ref=e22]
+              - text: Elements
+            - img [ref=e27]
+          - list [ref=e32]:
+            - listitem [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e36]: Text Box
+            - listitem [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - generic [ref=e40]: Check Box
+            - listitem [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Radio Button
+            - listitem [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e48]: Web Tables
+            - listitem [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+              - generic [ref=e52]: Buttons
+            - listitem [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e56]: Links
+            - listitem [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e60]: Broken Links - Images
+            - listitem [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+              - generic [ref=e64]: Upload and Download
+            - listitem [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e68]: Dynamic Properties
+        - generic [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - text: Forms
+          - img [ref=e80]
+        - generic [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]:
+            - img [ref=e89]
+            - text: Alerts, Frame & Windows
+          - img [ref=e94]
+        - generic [ref=e100] [cursor=pointer]:
+          - generic [ref=e101]:
+            - img [ref=e103]
+            - text: Widgets
+          - img [ref=e108]
+        - generic [ref=e114] [cursor=pointer]:
+          - generic [ref=e115]:
+            - img [ref=e117]
+            - text: Interactions
+          - img [ref=e122]
+        - generic [ref=e128] [cursor=pointer]:
+          - generic [ref=e129]:
+            - img [ref=e131]
+            - text: Book Store Application
+          - img [ref=e136]
+      - generic [ref=e140]:
+        - heading "Web Tables" [level=1] [ref=e141]
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - button "Add" [active] [ref=e145] [cursor=pointer]
+            - generic [ref=e147]:
+              - textbox "Type to search" [ref=e148]
+              - img [ref=e152]
+          - generic [ref=e155]:
+            - grid [ref=e156]:
+              - row "First Name Last Name Age Email Salary Department Action" [ref=e158]:
+                - columnheader "First Name" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]: First Name
+                - columnheader "Last Name" [ref=e162] [cursor=pointer]:
+                  - generic [ref=e163]: Last Name
+                - columnheader "Age" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e166]: Age
+                - columnheader "Email" [ref=e168] [cursor=pointer]:
+                  - generic [ref=e169]: Email
+                - columnheader "Salary" [ref=e171] [cursor=pointer]:
+                  - generic [ref=e172]: Salary
+                - columnheader "Department" [ref=e174] [cursor=pointer]:
+                  - generic [ref=e175]: Department
+                - columnheader "Action" [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]: Action
+              - generic [ref=e180]:
+                - rowgroup [ref=e181]:
+                  - row "Cierra Vega 39 cierra@example.com 10000 Insurance Edit Delete" [ref=e182]:
+                    - gridcell "Cierra" [ref=e183]
+                    - gridcell "Vega" [ref=e184]
+                    - gridcell "39" [ref=e185]
+                    - gridcell "cierra@example.com" [ref=e186]
+                    - gridcell "10000" [ref=e187]
+                    - gridcell "Insurance" [ref=e188]
+                    - gridcell "Edit Delete" [ref=e189]:
+                      - generic [ref=e190]:
+                        - generic "Edit" [ref=e191] [cursor=pointer]:
+                          - img [ref=e192]
+                        - generic "Delete" [ref=e194] [cursor=pointer]:
+                          - img [ref=e195]
+                - rowgroup [ref=e197]:
+                  - row "Alden Cantrell 45 alden@example.com 12000 Compliance Edit Delete" [ref=e198]:
+                    - gridcell "Alden" [ref=e199]
+                    - gridcell "Cantrell" [ref=e200]
+                    - gridcell "45" [ref=e201]
+                    - gridcell "alden@example.com" [ref=e202]
+                    - gridcell "12000" [ref=e203]
+                    - gridcell "Compliance" [ref=e204]
+                    - gridcell "Edit Delete" [ref=e205]:
+                      - generic [ref=e206]:
+                        - generic "Edit" [ref=e207] [cursor=pointer]:
+                          - img [ref=e208]
+                        - generic "Delete" [ref=e210] [cursor=pointer]:
+                          - img [ref=e211]
+                - rowgroup [ref=e213]:
+                  - row "Kierra Gentry 29 kierra@example.com 2000 Legal Edit Delete" [ref=e214]:
+                    - gridcell "Kierra" [ref=e215]
+                    - gridcell "Gentry" [ref=e216]
+                    - gridcell "29" [ref=e217]
+                    - gridcell "kierra@example.com" [ref=e218]
+                    - gridcell "2000" [ref=e219]
+                    - gridcell "Legal" [ref=e220]
+                    - gridcell "Edit Delete" [ref=e221]:
+                      - generic [ref=e222]:
+                        - generic "Edit" [ref=e223] [cursor=pointer]:
+                          - img [ref=e224]
+                        - generic "Delete" [ref=e226] [cursor=pointer]:
+                          - img [ref=e227]
+                - rowgroup [ref=e229]:
+                  - row "Liz Vidal 28 liz.vidal@test.com 9000 QA Edit Delete" [ref=e230]:
+                    - gridcell "Liz" [ref=e231]
+                    - gridcell "Vidal" [ref=e232]
+                    - gridcell "28" [ref=e233]
+                    - gridcell "liz.vidal@test.com" [ref=e234]
+                    - gridcell "9000" [ref=e235]
+                    - gridcell "QA" [ref=e236]
+                    - gridcell "Edit Delete" [ref=e237]:
+                      - generic [ref=e238]:
+                        - generic "Edit" [ref=e239] [cursor=pointer]:
+                          - img [ref=e240]
+                        - generic "Delete" [ref=e242] [cursor=pointer]:
+                          - img [ref=e243]
+                - rowgroup [ref=e245]:
+                  - row [ref=e246]:
+                    - gridcell [ref=e247]
+                    - gridcell [ref=e248]
+                    - gridcell [ref=e249]
+                    - gridcell [ref=e250]
+                    - gridcell [ref=e251]
+                    - gridcell [ref=e252]
+                    - gridcell [ref=e253]
+                - rowgroup [ref=e254]:
+                  - row [ref=e255]:
+                    - gridcell [ref=e256]
+                    - gridcell [ref=e257]
+                    - gridcell [ref=e258]
+                    - gridcell [ref=e259]
+                    - gridcell [ref=e260]
+                    - gridcell [ref=e261]
+                    - gridcell [ref=e262]
+                - rowgroup [ref=e263]:
+                  - row [ref=e264]:
+                    - gridcell [ref=e265]
+                    - gridcell [ref=e266]
+                    - gridcell [ref=e267]
+                    - gridcell [ref=e268]
+                    - gridcell [ref=e269]
+                    - gridcell [ref=e270]
+                    - gridcell [ref=e271]
+                - rowgroup [ref=e272]:
+                  - row [ref=e273]:
+                    - gridcell [ref=e274]
+                    - gridcell [ref=e275]
+                    - gridcell [ref=e276]
+                    - gridcell [ref=e277]
+                    - gridcell [ref=e278]
+                    - gridcell [ref=e279]
+                    - gridcell [ref=e280]
+                - rowgroup [ref=e281]:
+                  - row [ref=e282]:
+                    - gridcell [ref=e283]
+                    - gridcell [ref=e284]
+                    - gridcell [ref=e285]
+                    - gridcell [ref=e286]
+                    - gridcell [ref=e287]
+                    - gridcell [ref=e288]
+                    - gridcell [ref=e289]
+                - rowgroup [ref=e290]:
+                  - row [ref=e291]:
+                    - gridcell [ref=e292]
+                    - gridcell [ref=e293]
+                    - gridcell [ref=e294]
+                    - gridcell [ref=e295]
+                    - gridcell [ref=e296]
+                    - gridcell [ref=e297]
+                    - gridcell [ref=e298]
+            - generic [ref=e300]:
+              - button "Previous" [disabled] [ref=e302]
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - text: Page
+                  - spinbutton "jump to page" [ref=e306]: "1"
+                  - text: of 1
+                - combobox "rows per page" [ref=e308]:
+                  - option "5 rows"
+                  - option "10 rows" [selected]
+                  - option "20 rows"
+                  - option "25 rows"
+                  - option "50 rows"
+                  - option "100 rows"
+              - button "Next" [disabled] [ref=e310]
+            - generic:
+              - generic: Loading...
+      - img "Build PlayWright tests with AI" [ref=e318] [cursor=pointer]
+    - contentinfo [ref=e319]:
+      - generic [ref=e320]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

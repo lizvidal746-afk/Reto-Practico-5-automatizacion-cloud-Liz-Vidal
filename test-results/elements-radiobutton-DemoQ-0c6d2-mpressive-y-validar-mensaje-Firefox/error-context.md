@@ -1,0 +1,170 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e10]
+    - generic [ref=e13]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]:
+              - img [ref=e22]
+              - text: Elements
+            - img [ref=e27]
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - img [ref=e34]
+              - generic [ref=e36]: Text Box
+            - listitem [ref=e37]:
+              - img [ref=e38]
+              - generic [ref=e40]: Check Box
+            - listitem [ref=e41]:
+              - img [ref=e42]
+              - generic [ref=e44]: Radio Button
+            - listitem [ref=e45]:
+              - img [ref=e46]
+              - generic [ref=e48]: Web Tables
+            - listitem [ref=e49]:
+              - img [ref=e50]
+              - generic [ref=e52]: Buttons
+            - listitem [ref=e53]:
+              - img [ref=e54]
+              - generic [ref=e56]: Links
+            - listitem [ref=e57]:
+              - img [ref=e58]
+              - generic [ref=e60]: Broken Links - Images
+            - listitem [ref=e61]:
+              - img [ref=e62]
+              - generic [ref=e64]: Upload and Download
+            - listitem [ref=e65]:
+              - img [ref=e66]
+              - generic [ref=e68]: Dynamic Properties
+        - generic [ref=e69]:
+          - generic [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]:
+              - img [ref=e74]
+              - text: Forms
+            - img [ref=e80]
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - img [ref=e87]
+              - generic [ref=e89]: Practice Form
+        - generic [ref=e90]:
+          - generic [ref=e92] [cursor=pointer]:
+            - generic [ref=e93]:
+              - img [ref=e95]
+              - text: Alerts, Frame & Windows
+            - img [ref=e100]
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - img [ref=e107]
+              - generic [ref=e109]: Browser Windows
+            - listitem [ref=e110]:
+              - img [ref=e111]
+              - generic [ref=e113]: Alerts
+            - listitem [ref=e114]:
+              - img [ref=e115]
+              - generic [ref=e117]: Frames
+            - listitem [ref=e118]:
+              - img [ref=e119]
+              - generic [ref=e121]: Nested Frames
+            - listitem [ref=e122]:
+              - img [ref=e123]
+              - generic [ref=e125]: Modal Dialogs
+        - generic [ref=e126]:
+          - generic [ref=e128] [cursor=pointer]:
+            - generic [ref=e129]:
+              - img [ref=e131]
+              - text: Widgets
+            - img [ref=e136]
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - img [ref=e143]
+              - generic [ref=e145]: Accordian
+            - listitem [ref=e146]:
+              - img [ref=e147]
+              - generic [ref=e149]: Auto Complete
+            - listitem [ref=e150]:
+              - img [ref=e151]
+              - generic [ref=e153]: Date Picker
+            - listitem [ref=e154]:
+              - img [ref=e155]
+              - generic [ref=e157]: Slider
+            - listitem [ref=e158]:
+              - img [ref=e159]
+              - generic [ref=e161]: Progress Bar
+            - listitem [ref=e162]:
+              - img [ref=e163]
+              - generic [ref=e165]: Tabs
+            - listitem [ref=e166]:
+              - img [ref=e167]
+              - generic [ref=e169]: Tool Tips
+            - listitem [ref=e170]:
+              - img [ref=e171]
+              - generic [ref=e173]: Menu
+            - listitem [ref=e174]:
+              - img [ref=e175]
+              - generic [ref=e177]: Select Menu
+        - generic [ref=e178]:
+          - generic [ref=e180] [cursor=pointer]:
+            - generic [ref=e181]:
+              - img [ref=e183]
+              - text: Interactions
+            - img [ref=e188]
+          - list [ref=e193]:
+            - listitem [ref=e194]:
+              - img [ref=e195]
+              - generic [ref=e197]: Sortable
+            - listitem [ref=e198]:
+              - img [ref=e199]
+              - generic [ref=e201]: Selectable
+            - listitem [ref=e202]:
+              - img [ref=e203]
+              - generic [ref=e205]: Resizable
+            - listitem [ref=e206]:
+              - img [ref=e207]
+              - generic [ref=e209]: Droppable
+            - listitem [ref=e210]:
+              - img [ref=e211]
+              - generic [ref=e213]: Dragabble
+        - generic [ref=e214]:
+          - generic [ref=e216] [cursor=pointer]:
+            - generic [ref=e217]:
+              - img [ref=e219]
+              - text: Book Store Application
+            - img [ref=e224]
+          - list [ref=e229]:
+            - listitem [ref=e230]:
+              - img [ref=e231]
+              - generic [ref=e233]: Login
+            - listitem [ref=e234]:
+              - img [ref=e235]
+              - generic [ref=e237]: Book Store
+            - listitem [ref=e238]:
+              - img [ref=e239]
+              - generic [ref=e241]: Profile
+            - listitem [ref=e242]:
+              - img [ref=e243]
+              - generic [ref=e245]: Book Store API
+      - generic [ref=e246]:
+        - heading "Radio Button" [level=1] [ref=e247]
+        - generic [ref=e248]:
+          - generic [ref=e249]: Do you like the site?
+          - generic [ref=e250]:
+            - radio "Yes" [ref=e251]
+            - text: "Yes"
+          - generic [ref=e252]:
+            - radio "Impressive" [ref=e253]
+            - text: Impressive
+          - generic [ref=e254]:
+            - radio "No" [disabled] [ref=e255]
+            - text: "No"
+      - img "Build PlayWright tests with AI" [ref=e263] [cursor=pointer]
+    - contentinfo [ref=e264]:
+      - generic [ref=e265]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
